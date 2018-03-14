@@ -33,5 +33,3 @@ Liste des standarts:
 
 - Le dépôt est structuré dans la branche master par les planètes concepts. La hiérarchie des dossier suit celle de l'univers.
 - Chaque planète possède à sa racine un fichier <nolink>Description.md</nolink>, qui la décrit. Si la planète a une ou plusieurs planètes filles, elles se situent dans le dossier *Branch*.
-
-bonjour.
