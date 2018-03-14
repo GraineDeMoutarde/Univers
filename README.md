@@ -15,4 +15,11 @@ Lorsqu'un commit déplacé dans *master* assume un méta-principe, il doit être
 
 Liste extensible des méta-principes:
 
--L'__univers__ est constitué d'un réseau de concepts, qui sont matérialisées par des planètes.
+Non validés:
+- L'__univers__ est constitué d'un réseau de concepts, qui sont matérialisées par des planètes.
+     
+    - Il existe un ou plusieurs concept centres, originaux. Ces planètes originales donnent naissance à des planètes filles. Celles-ci peuvent développer des concepts qui sont en lien avec leur *concept mère*, dit **matrice**.
+    - Quand une planète mère donne naissance à une planète fille, elle hérite de tous les concepts qui se développent sur cette dernière. C'est le principe de (reste à trouver un nom).
+    - Par conséquent, s'il n'y a qu'un concept centre, il hérite de tous les concepts de l'univers.
+
+Validés:
