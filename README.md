@@ -23,3 +23,13 @@ Non validés:
     - Par conséquent, s'il n'y a qu'un concept centre, il hérite de tous les concepts de l'univers.
 
 Validés:
+
+Standarts
+===
+
+Pour une meilleure lisibilité, le dépôt est structuré selon des standarts.
+
+Liste des standarts:
+
+- Le dépôt est structuré dans la branche master par les planètes concepts. La hiérarchie des dossier suit celle de l'univers.
+- Chaque planète possède à sa racine un fichier <nolink>Description.md</nolink>, qui la décrit. Si la planète a une ou plusieurs planètes filles, elles se situent dans le dossier *Branch*.
