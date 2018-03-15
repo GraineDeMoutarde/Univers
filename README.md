@@ -23,6 +23,7 @@ Non validés:
     - Par conséquent, s'il n'y a qu'un concept centre, il hérite de tous les concepts de l'univers.
 
 Validés:
+- L'__univers__ est constitué d'un réseau de concepts, qui sont matérialisées par des planètes.
 
 Standarts
 ===
