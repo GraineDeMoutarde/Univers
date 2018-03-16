@@ -16,14 +16,14 @@ Le tore est composé d'une matière à la fois liquide et solide. Celle-ci acqui
 ### Matière
 La planète racine est composée de plusieurs matières très différentes dans leur nature.
 
-* **Slime**: La première est continue. En effet, elle n'est pas composée par    d'autres éléments, comme des particules ou des atomes, mais est divisible à l'infini, sans que ses propriétés s'en trouvent changées.
+* **Slime**: Le slime continu. En effet, elle n'est pas composée par    d'autres éléments, comme des particules ou des atomes, mais est divisible à l'infini, sans que ses propriétés s'en trouvent changées.
 
      Cette matière est visqueuse. Aussi ses propriétés sont chroniques, c'est à dire qu'elles changent au fil du temps. Ce changement est accéléré par la profondeur du matériau.
 
      Aussi, elle ne rentre pas dans le champ gravitationnel, et échappe à toute interaction de ce type.
 
 
-* **Iskav**: La seconde matière est complètement solide. Elle ne se situe qu'en surface, et permet au tore de disposer d'une surface rigide. Contrairement à l'autre composante du tore, celle-ci ne peut se diviser infiniment.
+* **Iskav**: L'Iskav est complètement solide. Elle ne se situe qu'en surface, et permet au tore de disposer d'une surface rigide. Contrairement à l'autre composante du tore, celle-ci ne peut se diviser infiniment.
 
     Sa forme inséquable est un gravitrol, autrement dit un porteur de gravité. C'est donc par cette matière que la gravité est présente dans le tore, car la première ne "conduit" pas la gravitation.
 
