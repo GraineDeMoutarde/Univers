@@ -4,20 +4,32 @@
 
 La Planète, est celle qui définit ce qu'est une planète :
 
-- sa forme
-- ses lois physiques
-- les matériaux qui la composent
-- ...
-
-La planète est en forme de tore. Pour se repérer :
-
-- Un tore est formé par la révolution d'un cercle
-- Ce cercle possède un centre, et les centres de tous ces cercles forment un courbe, la courbe des endroits les plus innaccessible depuis la surface.
-
-### Gravité
-La gravité est telle que où que l'on se trouve à sa surface, le torus nous attire à la fois vers le centre du cercle de révolution et vers le centre de gravité du tore entier. Donc, lorsqu'on est situé sur la partie extérieure du tore, l'attraction gravitationnelle générée par le centre du cercle de révolution s'ajoute à celle générée par l'autre côté du tôre (plus faible). La face intérieure connaît une attraction gravitationelle plus faible, ce qui rend l'environnement moins hostile
+- une structure
+- la matière qui la compose
+- les lois physiques qui y règnent
 
 ### Structure
 Le tore est composé d'une matière à la fois liquide et solide. Celle-ci acquiert des propriétés différentes au cours du temps, notamment en terme de volume. Aussi Le tore, par la répartition de cette matière aux propriétés pentastructurelles, se déforme au fur et à mesure du temps dans une forme de tore "twisté".
 
-![screen](screen.png)
+![screen](tore.png)
+
+### Matière
+La planète racine est composée de plusieurs matières très différentes dans leur nature.
+
+* **Slime**: La première est continue. En effet, elle n'est pas composée par    d'autres éléments, comme des particules ou des atomes, mais est divisible à l'infini, sans que ses propriétés s'en trouvent changées.
+
+     Cette matière est visqueuse. Aussi ses propriétés sont chroniques, c'est à dire qu'elles changent au fil du temps. Ce changement est accéléré par la profondeur du matériau.
+
+     Aussi, elle ne rentre pas dans le champ gravitationnel, et échappe à toute interaction de ce type.
+
+
+* **Iskav**: La seconde matière est complètement solide. Elle ne se situe qu'en surface, et permet au tore de disposer d'une surface rigide. Contrairement à l'autre composante du tore, celle-ci ne peut se diviser infiniment.
+
+    Sa forme inséquable est un gravitrol, autrement dit un porteur de gravité. C'est donc par cette matière que la gravité est présente dans le tore, car la première ne "conduit" pas la gravitation.
+
+### Lois Physiques
+
+La loi physique principale qui concerne cette planète est la présence de propriétés chroniques du slilme en profondeur. En effet celui-ci voit sa propriété de volume et de visquosité varier au fur et à mesure du temps, mais aussi en fonction de la profondeur.
+
+En effet, la visquosité, c'est à dire sa capacité à couler, diminue avec la profondeur, tandis que le volume augmente.
+
