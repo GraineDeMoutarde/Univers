@@ -31,5 +31,5 @@ La planète racine est composée de plusieurs matières très différentes dans 
 
 La loi physique principale qui concerne cette planète est la présence de propriétés chroniques du slilme en profondeur. En effet celui-ci voit sa propriété de volume et de visquosité varier au fur et à mesure du temps, mais aussi en fonction de la profondeur.
 
-En effet, la visquosité, c'est à dire sa capacité à couler, diminue avec la profondeur, tandis que le volume augmente.
+En effet, le volume et la visquosité, c'est à dire sa capacité à couler, augmentent avec la profondeur.
 
