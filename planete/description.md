@@ -27,7 +27,7 @@ La planète racine est composée de plusieurs matières très différentes dans 
 
 * **Iskav**: La seconde matière est complètement solide. Elle ne se situe qu'en surface, et permet au tore de disposer d'une surface rigide. Contrairement à l'autre composante du tore, celle-ci ne peut se diviser infiniment.
 
-    Sa forme inséquable est un gravitrol, autrement dit un porteur de gravité. C'est donc par cette matière que la gravité est présente dans le tore, car la première ne "conduit" pas la gravitation.
+    Sa forme inséquable est un gravitrol, autrement dit un porteur de gravité. C'est donc par cette matière que la gravité est présente dans le tore, car la slilme ne "conduit" pas la gravitation.
 
 ### Lois Physiques
 
