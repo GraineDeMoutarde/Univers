@@ -31,7 +31,7 @@ La planète racine est composée de plusieurs matières très différentes dans 
 
 ### Lois Physiques
 
-La loi physique principale qui concerne cette planète est la présence de propriétés chroniques du slilme en profondeur. En effet celui-ci voit sa propriété de volume son état varier au fur et à mesure du temps avec les marrées, mais aussi en fonction de la profondeur.
+La loi physique principale qui concerne cette planète est la présence de propriétés chroniques du slilme en profondeur. En effet celui-ci voit sa propriété de volume son état varier au fur et à mesure du temps avec les marées, mais aussi en fonction de la profondeur.
 
 En effet, le volume et l'état liquide du slime, augmentent avec la profondeur.
 
@@ -39,4 +39,4 @@ Cependant, parmi les zones à dominante liquide (vers le centre), des poches de 
 
 
 
-![Volume et solidité en fonction de la profondeur](./Structure)
+![Volume et solidité en fonction de la profondeur]("./Lois Physiques/Capture d'écran (25).png")
