@@ -1,8 +1,8 @@
 # Planète
 
-## Qu'est-ce-que la planète *planète*?
+## Qu'est-ce-que la planète *Origine*?
 
-La Planète, est celle qui définit ce qu'est une planète :
+La Planète Origine, est celle qui définit ce qu'est une planète :
 
 - une structure
 - la matière qui la compose
@@ -14,9 +14,9 @@ La planète un tore de révolution à base pentagonale qui se "twiste" au cours 
 ![screen](./Structure/tore.png)
 
 ### Matière
-La planète racine est composée de plusieurs matières très différentes dans leur nature.
+La planète Origine est composée de plusieurs matières très différentes dans leur nature.
 
-* **Slime**: La slime est la matière en mlus grande quantité dans la planète. On la retrouve en profondeur dans un état solide-liquide de plus en plus liquide, quoique des poches à tendance solide puissent se retrouver en profondeur et ce réciproquement. Elle est aussi présente à la surface sous forme de mers, dont la plus grande est celle occupant une bande entière du tore.
+* **Slime**: La slime est la matière en plus grande quantité dans la planète. On la retrouve en profondeur dans un état solide-liquide de plus en plus liquide, quoique des poches à tendance solide puissent se retrouver en profondeur et ce réciproquement. Elle est aussi présente à la surface sous forme de mers, dont la plus grande est celle occupant une bande entière du tore.
 
     La slime est continue. En effet, elle n'est pas composée par d'autres éléments, comme des particules ou des atomes, mais est divisible à l'infini, sans que ses propriétés s'en trouvent changées.
 
