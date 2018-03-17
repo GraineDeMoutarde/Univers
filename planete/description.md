@@ -11,7 +11,7 @@ La Planète, est celle qui définit ce qu'est une planète :
 ### Structure
 Le tore est composé d'une matière à la fois liquide et solide. Celle-ci acquiert des propriétés différentes au cours du temps, notamment en terme de volume. Aussi Le tore, par la répartition de cette matière aux propriétés pentastructurelles, se déforme au fur et à mesure du temps dans une forme de tore "twisté".
 
-![screen](tore.png)
+![screen](./Structure/tore.png)
 
 ### Matière
 La planète racine est composée de plusieurs matières très différentes dans leur nature.
@@ -31,5 +31,6 @@ La planète racine est composée de plusieurs matières très différentes dans 
 
 La loi physique principale qui concerne cette planète est la présence de propriétés chroniques du slilme en profondeur. En effet celui-ci voit sa propriété de volume et de visquosité varier au fur et à mesure du temps, mais aussi en fonction de la profondeur.
 
-En effet, le volume et la visquosité, c'est à dire sa capacité à couler, augmentent avec la profondeur.
+En effet, le volume et la viscosité, c'est à dire sa capacité à couler, augmentent avec la profondeur.
 
+![Volume et solidité en fonction de la profondeur](./Structure)
