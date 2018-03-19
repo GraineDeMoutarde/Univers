@@ -16,6 +16,9 @@ Lorsqu'un commit déplacé dans *master* assume un méta-principe, il doit être
 Liste extensible des méta-principes:
 
 Non validés:
+- Chaque nouvelle planète appartient au même espace (même univers) mais non au même temps (généralement, le temps passe plus vite sur la planète origine que sur les autres planètes) que la planète origine et ses planètes filles.
+- le temps, homogène sur une planète mais hétérogène sur l'ensemble de l'univers, est relatif à l'activité d'une d'une planète. 
+- l'activité correspond à ce que les créateurs de l'univers décident qu'il se passe sur la planète. Il peut s'écouler du temps lorsque les créateurs son actifs sur l'univers (par exemple lorsque les créateurs créent les matériaux de la planète origine, du temps s'écoule) mais aussi lorsqu'ils sont inactifs en laissant des actions se faire pendant leur absence (pas encore d'exemple). Cela implique que quand il ne se passe rien, le temps ne s'écoule pas. (Attention à ne pas confondre : quand il se passe rien, du temps s'écoule. (cela reste cependant à éviter en raison de l'invraissemblance de l'inactivité)).
 
 Validés:
 - L'__univers__ est constitué d'un réseau de concepts, qui sont matérialisées par des planètes.
