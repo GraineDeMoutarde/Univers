@@ -1,5 +1,9 @@
 # Planète
 
+## Navigation
+
+Retour au [README](../README.md)
+
 ## Qu'est-ce-que la planète *Origine*?
 
 La Planète Origine, est celle qui définit ce qu'est une planète :
@@ -42,5 +46,3 @@ En effet, le volume et l'état liquide du slime, augmentent avec la profondeur.
 Cependant, parmi les zones à dominante liquide (vers le centre), des poches de slime solide peuvent survenir, et ce réciproquement.
 
 
-
-![Volume et solidité en fonction de la profondeur]("./Lois Physiques/Capture d'écran (25).png")
