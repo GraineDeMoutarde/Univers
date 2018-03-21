@@ -15,8 +15,6 @@ Validés:
     - L'avancement du temps sur une planète dépend donc de la volonté des créateurs.
 
 Non validés:
-- Chaque planète-fille lors de sa création est un clone de la planète dont elle est issue avec seulement le concept inhérent à elle-même. Sa structure clonée peut être modifiée par la suite.
-- Les créateurs décident de ce qu'il y aura sur chaque nouvelle planète fille.
 
 
 # Structure

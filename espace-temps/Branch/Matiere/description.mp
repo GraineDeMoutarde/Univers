@@ -1,23 +1,5 @@
-# Planète
-
-## Navigation
-
-Retour au [README](../README.md)
-
-## Qu'est-ce-que la planète *Origine*?
-
-La Planète origine est la **matrice** de toutes les autres planètes. Elle introduit le concept d'espace-temps.
-
-# Planète-Concept
-
-Toutes les planètes filles de la planète origine sont des *planètes concepts*. Chacune de ces planètes comportent la définition du ou des concepts et leur description.
-
-## Espace
-
-Description de l'espace de la planète origine:
-
 ### Structure
-La planète un tore de révolution à base pentagonale qui se "twiste" au cours du temps.
+La planète est un tore de révolution à base pentagonale qui se "twiste" au cours du temps.
 
 ![screen](./Structure/tore.png)
 
