@@ -1,8 +1,9 @@
-# Planète
+# Espace-temps
 
 ## Navigation
 
-Retour au [README](../README.md)
+Retour au [README](../README.md) <br>
+Branches: [Matière](./Branch/Matiere/description.md)
 
 ## Qu'est-ce-que la planète *Origine*?
 
@@ -19,3 +20,8 @@ Sans le concept d'espace, il n'y a rien. Ce concept permet à l'univers d'accuei
 ## Temps
 
 Sans le temps, chaque chose serait statique et invariable. Le concept du temps permet à la matière d'evoluer au cours du temps. 
+- L'avancement du temps sur une planète dépend donc de la volonté des créateurs.
+
+## Escpace-Temps
+- Chaque nouvelle planète appartient au même espace (même univers) mais non au même temps que la planète origine et ses planètes filles.
+    

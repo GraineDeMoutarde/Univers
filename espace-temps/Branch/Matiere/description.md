@@ -1,9 +1,16 @@
-### Structure
+# Matière
+
+## Navigation
+
+Retour à l'[ESPACE-TEMPS](../description.md) <br>
+Branches: [Chaleur](./Branch/Chaleur/description.md)
+
+## Structure
 La planète est un tore de révolution à base pentagonale qui se "twiste" au cours du temps.
 
 ![screen](./Structure/tore.png)
 
-### Matière
+## Matière
 La planète Origine est composée de plusieurs matières très différentes dans leur nature.
 
 * **Slime**: La slime est la matière en plus grande quantité dans la planète. On la retrouve en profondeur dans un état solide-liquide de plus en plus liquide, quoique des poches à tendance solide puissent se retrouver en profondeur et ce réciproquement. Elle est aussi présente à la surface sous forme de mers, dont la plus grande est celle occupant une bande entière du tore.

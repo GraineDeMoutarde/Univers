@@ -16,6 +16,4 @@ Validés:
 
 Non validés:
 
-
-# Structure
-La planète est
+Des planètes qui n'appartiennent pas à la même branche peuvent communiquer pour donner de nouvelles possibilités. Cela est rendu possible pas les portails spatio-temporels, qui relient deux points d'une planète. Des  concepts peuvent être ainsi échangés et de nouvelles planètes peuvent être crée suite à cet échange.
