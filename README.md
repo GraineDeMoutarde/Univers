@@ -5,7 +5,7 @@ Ce dépot est destiné à recenser toutes les idées en relation avec l'imaginat
 
 Objectifs
 =========
-Le processus de création est dans une phase primaire, qui consiste à proposer des hypothèses dans la branche *hypothèses*, qui seront débattues puis déplacées dans *master*.
+Le processus de création est dans une phase de développement, qui consiste à proposer des nouveaux éléments à partir des bases déjà conçues.
 
 Méta-Principes
 =============
@@ -21,6 +21,3 @@ Standarts
 > Pour une meilleure lisibilité, le dépôt est structuré selon des standarts.
 
 Liste des standarts:
-
-- Le dépôt est structuré dans la branche master par les planètes concepts. La hiérarchie des dossier suit celle de l'univers.
-- Chaque planète possède à sa racine un fichier <nolink>Description.md</nolink>, qui la décrit. Si la planète a une ou plusieurs planètes filles, elles se situent dans le dossier *Branch*.
