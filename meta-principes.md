@@ -9,4 +9,3 @@ Liste extensible des méta-principes:
 Validés:
 - Tous les éléments de l'univers sont regroupés en quatre catégories. Chaque catégorie est définie par deux critères, qui sont tous les deux partagés avec deux autres catégories.
 
-![screen](./Ressources/grand tableau circulaire des éléments de l'univers.JPG)  
