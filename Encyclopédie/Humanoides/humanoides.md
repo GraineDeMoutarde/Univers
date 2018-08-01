@@ -4,7 +4,7 @@ Humanoïdes
 Origine
 -------
 
-Les premiers **humanoides** apparaissent sur un arbre situé environ au centre du cercle mineur du Tore, environ 20 [cycles gravitationnels](../Généralités/loi_verticale.md#gravidsc) après la création du [Sol](../Généralités/sol.md)
+Les premiers **humanoides** apparaissent sur un arbre situé environ au centre du cercle mineur du Tore, environ 20 [cycles gravitationnels](../Généralités/loi_verticale.md#gravidsc) après la création du [Sol](../Ecosystemes/sol.md)
 
 Très vite les humanoïdes comprennent que leur habitat est pour eux synonyme de survie, vu les dangers du sol. Ils font donc tout pour se débarasser des rongeurs envahissants (type lichen), ce qui leur vaut une reconnaissance de l'arbre. 
 
@@ -19,3 +19,4 @@ A ce moment l'arbre avait déjà produit plus d'une trentaine d'espèces dont un
 
 <h2 name=cycle> Cycle de vie </h2>
 ------------
+Un humanoide naît du fruit de son arbre. Il meurt si son coeur est arraché ou trop abîmé. Il meurt également (plus lentement) si son corps est assez abîmé pour que ses sens ne répondent plus.

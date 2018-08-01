@@ -1,9 +1,8 @@
 Encyclopédie
 ============
 
-L'encyclopédie est structurée autour de quatre grands chapitres:
+L'encyclopédie est structurée autour de trois grands chapitres:
 
 1. Généralités
-2. Evolution du vivant
 3. Ecosystèmes
 4. Humanoïdes
