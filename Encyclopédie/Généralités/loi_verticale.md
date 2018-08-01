@@ -16,6 +16,6 @@ Le disque de gravité n'est pas statique. Il décrit en effet une trajectoire si
 
 Cette trajectoire, ici accélérée, a une période qui dure plusieurs centaines de cycles de [vie humanoïde](../Humanoides/humanoides.md#cycle). 
 
-Le [Sol](sol.md), (en rouge), est composé de matière vivante et il est donc attiré par le disque de manière rapide. Il ne franchit pourtant pas le grand tore puisque le [Liquidus](liquidus.md) l'en empêche (ici non représenté). Au fur et à mesure de son déplacement, le sol s'adapte par ailleurs à la forme torique de l'univers.
+Le [Sol](../Ecosystemes/sol.md), (en rouge), est composé de matière vivante et il est donc attiré par le disque de manière rapide. Il ne franchit pourtant pas le grand tore puisque le [Liquidus](liquidus.md) l'en empêche (ici non représenté). Au fur et à mesure de son déplacement, le sol s'adapte par ailleurs à la forme torique de l'univers.
 
 Périodiquement, l'univers subit donc des inversions de gravité. La période est appellée cycle gravitationnel.
