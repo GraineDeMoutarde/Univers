@@ -1,0 +1,5 @@
+Le Sol avait trop d'eau, et il créa l'arbre. Autour de l'arbre il y avait un nid de pierre protecteur que le Sol avait formé dans le but de protéger l'arbre des dangers présents sur le Sol, et pour que les futurs fruits de l'arbres puissent tomber sur de la matière morte.
+Les espèces vivant à la surface du sol étaient pour la plupart nomades, mais certaines d'entre elles chercher les nouveaux arbres pour quitter le sol. Celles-ci furent les premiers à peupler l'arbre.
+L'arbres puisait en continu de l'eau dans le sol avec ses racines, et les premiers fruits vinrent. Parmi les premiers animaux qui éclorent se trouvaient les humanoïdes.
+
+Ils restèrent d'abord plusieurs jours sans bouger car leur corps n'était pas encore prêt et leur sens pas assez développés. Progressivement, leur sens se mirent à fonctionner et les humanoïdes prirent connaissance du monde extérieur. Ils comprirent qu'ils étaient liés les uns aux autres car ils se ressemblaient et ils restèrent ensemble. Un jour où ils se reposaient tous en même temps comme leur corps étaient encore un peu faible, un animal bondissant du habitant sur les roches à la surface du sol.
