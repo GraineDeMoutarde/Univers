@@ -9,10 +9,6 @@ Ainsi, le Sol est un élément central de la vie dans l'univers : il a à la foi
 
 Aspects
 ---
-<<<<<<< HEAD:Encyclopédie/Généralités/sol.md
-=======
-
->>>>>>> 1f7f70340a40ba0dc2d5d798317e7e299f6760fd:Encyclopédie/Ecosystemes/sol.md
 La texture du Sol dépend de l'humidité ambiante : plus la zone est humide, plus le Sol devient ductile, le moindre objet posé s'enfonce très rapidement. Ce phénomène s'accentue généralement à l'approche du centre du tore, où les liquides se concentrent. En revanche, lorsqu'on s'en éloigne, le Sol perd sa teneur en eau et devient davantage friable. 
 Le Sol présente une gamme de couleur dans les tons ocres, allant du jaune-orangé au marron en passant pas le rouge.
 
