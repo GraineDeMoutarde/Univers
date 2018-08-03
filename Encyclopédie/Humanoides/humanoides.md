@@ -43,3 +43,6 @@ Les divertissements :
 * **s'instruire**
 * **se produire** en public
 * **assister à une représentation**
+ 
+exploration
+==========
