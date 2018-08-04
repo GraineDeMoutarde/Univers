@@ -44,5 +44,17 @@ Les divertissements :
 * **se produire** en public
 * **assister à une représentation**
  
-exploration
-==========
+Exploration
+---
+De temps en temps, les humanoïdes quittent leur arbre pour explorer leur environnement extérieur. Leurs motivations peuvent être :
+* la quète de nouveaux savoirs (par l'observation ou la rencontre d'autres espèces)
+* la quète de nouveaux matériaux (pour contruire, se nourrir ou autre)
+* la recherche de membres disparus
+* la nécessité d'habiter ailleur
+
+Les moyens qu'emploient les humanoïdes sont encore inconnus mais pour se déplacer dans l'univers et quittant leur arbre ils peuvent : 
+* voler ou planer
+* se déplacer d'objet volant en objet volant (matière inanimée)
+* utiliser l'eau
+
+

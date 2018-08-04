@@ -1,5 +1,6 @@
 Généralités
 ===
+Tout ce qui n'est pas précisé dans l'encyclopédie est supposé identique à la planète Terre.
 
 Matière
 -------
