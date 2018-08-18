@@ -1,5 +1,6 @@
 Généralités
 ===
+Tout ce qui n'est pas précisé dans l'encyclopédie est supposé identique à la planète Terre.
 
 Matière
 -------
@@ -25,3 +26,5 @@ Temps
 Le temps est une notion qui n'a pas de début. L'univers est infiniment vieux, mais son état était infiniment identique jusqu'aux événements traités dans cette encyclopédie.
 
 Le temps se déroule de manière linéaire et continue.
+
+La plus grande division du temps est le [cycle gravitationnel](../Généralités/loi_verticale.md#gravidsc).
