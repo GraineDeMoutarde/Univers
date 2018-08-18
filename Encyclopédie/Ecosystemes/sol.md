@@ -1,9 +1,9 @@
-Sol (à compléter)
+Sol
 ===
 
 Entité vivante unique en son genre sur laquelle repose de la matière morte. Elle a la particularité d'absorber plus ou moins vite toute matière qui repose sur elle. 
 
-Le Sol permet à la matière morte de reprendre vie, car c'est la seul Entité qui peut réinsufler la vie à de la matière morte<sup>[1](#arbres)</sup>
+Le Sol permet à la matière morte de reprendre vie, car c'est la seul Entité qui peut réinsufler la vie à de la matière morte<sup>[1](./sol.md#arbres)</sup>
 
 Ainsi, le Sol est un élément central de la vie dans l'univers : il a à la fois la capacité d'ôter les créatures du monde et de réanimer la matière morte en l'assimilant à lui même. De plus il est celui qui donne la vie.
 
