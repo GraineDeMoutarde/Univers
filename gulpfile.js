@@ -15,10 +15,10 @@ md.use(require('markdown-it-container'), 'title', {
     }
 })
 
-gulp.task('build', function() {
-    return gulp.src('**/*.md')
+gulp.task('build-encyclopedia', function() {
+    return gulp.src('Encyclopédie/**/*.md')
         .pipe(tap(markdownToHtml))
-        .pipe(gulp.dest('./dist'));
+        .pipe(gulp.dest('./website'));
 });
 
 function markdownToHtml(file) {

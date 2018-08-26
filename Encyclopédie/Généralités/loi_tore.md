@@ -1,7 +1,3 @@
-::: title
-Loi du Tore
-:::
-
 Loi du Tore
 ===========
 
