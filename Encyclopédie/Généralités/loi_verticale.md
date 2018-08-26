@@ -1,5 +1,7 @@
-Loi Verticale
-=============
+# Loi Verticale
+
+----
+
 
 Loi qui donne aux objets vivants un comportement d'accélération verticale. elle est similaire à la gravité terrestre. La matière animée y est plus soumise que la matière inanimée.
 
