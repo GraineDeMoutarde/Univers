@@ -4,18 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "compile markdown",
+            "label": "echo",
             "type": "shell",
-            "command": "markdown-it ${relativeFile} -o website.html",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
+            "command": "echo Hello"
         },
         {
-            "label": "Bootstrapise",
-            "type": "shell",
-            "command": ""
+            "type": "gulp",
+            "task": "default",
+            "problemMatcher": []
         }
     ]
 }
