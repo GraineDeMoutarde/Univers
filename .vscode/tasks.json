@@ -4,13 +4,8 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "echo",
-            "type": "shell",
-            "command": "echo Hello"
-        },
-        {
             "type": "gulp",
-            "task": "default",
+            "task": "build",
             "problemMatcher": []
         }
     ]

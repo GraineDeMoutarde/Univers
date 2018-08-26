@@ -1,9 +1,9 @@
+::: title
+Loi du Tore
+:::
+
 Loi du Tore
 ===========
-
-[//]: # (<video width="960" height="340">
-    <src="../ressources/water.mp4" typ="video/mp4">
-</video>)
 
 ![tore](../ressources/water.png)
 
