@@ -14,11 +14,11 @@ Loi qui donne aux objets vivants un comportement d'accélération verticale. ell
 
 L'origine de l'attraction gravitationnelle verticale est le disque de gravité. L'intensité de l'attraction du disque est identique dans tout l'univers, seul le sens d'attraction change en fonction de la position de l'objet par rapport au disque.
 
-![Sens d'attraction](../ressources/loi_verticale_sens.png)
+![Sens d'attraction](../../ressources/loi_verticale_sens.png)
 
 Le disque de gravité n'est pas statique. Il décrit en effet une trajectoire sinusoïdale verticale.
 
-![trajectoire](../ressources/grav_sol.gif)
+![trajectoire](../../ressources/grav_sol.gif)
 
 Cette trajectoire, ici accélérée, a une période qui dure plusieurs centaines de cycles de [vie humanoïde](../Humanoides/humanoides.md#cycle). 
 
