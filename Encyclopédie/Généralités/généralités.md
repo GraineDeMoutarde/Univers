@@ -1,3 +1,7 @@
+::: title Généralités
+:::
+
+::: container
 Généralités
 ===
 Tout ce qui n'est pas précisé dans l'encyclopédie est supposé identique à la planète Terre.
@@ -28,3 +32,4 @@ Le temps est une notion qui n'a pas de début. L'univers est infiniment vieux, m
 Le temps se déroule de manière linéaire et continue.
 
 La plus grande division du temps est le [cycle gravitationnel](../Généralités/loi_verticale.md#gravidsc).
+:::

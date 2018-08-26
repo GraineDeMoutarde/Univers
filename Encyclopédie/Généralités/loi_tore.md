@@ -1,3 +1,7 @@
+::: title Loi du tore 
+:::
+
+::: container
 Loi du Tore
 ===========
 
@@ -10,3 +14,4 @@ Le sens de rotation des objets soumis au tore quant à lui ne change pas
 ![rot](../ressources/water_rot.png)
 
 Ceci résulte en une colonne de [Liquidus](liquidus.md) au centre de l'univers.
+:::

@@ -10,9 +10,9 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-markdown-it": "^0.1.1",
     "gulp-tap": "^1.0.1",
     "gulp-util": "^3.0.8",
+    "markdown-it": "^8.4.2",
     "markdown-it-container": "^2.0.0"
   },
   "scripts": {
