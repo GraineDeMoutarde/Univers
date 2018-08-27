@@ -10,11 +10,11 @@ Espèce d'êtres vivants animés et vivant en symbiose avec un arbre depuis que 
 Origine
 -------
 
-Les premiers **humanoides** apparaissent sur un arbre situé environ au centre du cercle mineur du Tore, environ 20 [cycles gravitationnels](../Généralités/loi_verticale.md#gravidsc) après la création du [Sol](../Ecosystemes/sol.md)
+Les premiers **humanoides** apparaissent sur un arbre situé environ au centre du cercle mineur du Tore, environ 20 [cycles gravitationnels](../../../../Généralités/loi_verticale.md#gravidsc) après la création du [Sol](../../sol.md)
 
 Très vite les humanoïdes comprennent que leur habitat est pour eux synonyme de survie, vu les dangers du sol. Ils font donc tout pour se débarasser des rongeurs envahissants (type lichen), ce qui leur vaut une reconnaissance de l'arbre. 
 
-Les circonstances météorologiques instables ainsi que d'autres dangers (parfois vivants) les poussent à trouver abri à l'intérieur du tronc de l'arbre. Une fois dedans, la découverte du coeur de l'arbre leur permet de rentrer véritablement en [Symbiose](../Ecosystemes/symbiose.md)
+Les circonstances météorologiques instables ainsi que d'autres dangers (parfois vivants) les poussent à trouver abri à l'intérieur du tronc de l'arbre. Une fois dedans, la découverte du coeur de l'arbre leur permet de rentrer véritablement en [Symbiose](../../symbiose.md)
 
 A ce moment l'arbre avait déjà produit plus d'une trentaine d'espèces dont une dixaine ont survécu.
 
