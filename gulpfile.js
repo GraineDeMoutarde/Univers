@@ -3,6 +3,8 @@ var gutil = require('gulp-util');
 var tap = require('gulp-tap');
 var MarkdownIt = require('markdown-it');
 var container = require('markdown-it-container');
+var toc = require('gulp-markdown-toc');
+var exec = require('child_process').exec;
 
 var md = new MarkdownIt({
     html: true,
@@ -51,3 +53,9 @@ function markdownToHtml(file) {
 gulp.task('watch', function() {
     gulp.watch('**/*.md', ['build-encyclopedia']);
 });
+
+gulp.task('toc', function() {
+    return gulp.src('Encyclopédie/**/*.md')
+      .pipe(toc({index: 'main.md'}))
+      .pipe(gulp.dest('./Encyclopédie'));
+  });

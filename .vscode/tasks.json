@@ -16,6 +16,16 @@
             "type": "gulp",
             "task": "watch",
             "problemMatcher": []
+        },
+        {
+            "type": "gulp",
+            "task": "toc",
+            "problemMatcher": []
+        },
+        {
+            "type": "gulp",
+            "task": "build-encyclopedia",
+            "problemMatcher": []
         }
     ]
 }
