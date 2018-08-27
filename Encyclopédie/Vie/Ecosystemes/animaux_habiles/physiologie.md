@@ -4,7 +4,8 @@
 ::: container
 # Physiologie
 
-Le corps est une entité rendue compacte grâce à un organe externe, la peau. Les organes sont des entités autonomes qui dépendent de l'être qui les héberge et sont eux-même composés d'entités autonomes, les cellules.
+Le corps est une entité rendue compacte grâce à un organe externe, la peau. Les organes sont des entités autonomes qui dépendent de l'être qui les héberge et sont eux-même composés d'entités autonomes, les cellules.  
+Le corps ne contient à l'origine aucuns liquides : étant soumis à l'attraction du grand tore, ils risqueraient d'emporter l'animal avec eux.
 
 ## Les organes
 
@@ -15,8 +16,10 @@ Il existe différent types de peaux.
 Celle des humanoïdes durcit avec le temps. Ainsi, lorsque les humanoïdes sont jeunes, ils possèdent une peau dont la texture ressemble à celle d'une grenouille, puis au fure et à mesure elle durcit, les protégeant ainsi davantage. L'inconvéniant est que le processus de durcissement ne se termine jamais et finit par handicaper les humanoïdes. Pour y remédier, ils doivent créer des divisions dans leur peau, comme des écailles. Lorsqu'ils y parviennent, leur peau ne devient non plus un frein pour leur mouvement, mais un atout majeur, les protégeant des objets tranchants.  
 D'autres animaux ont des peaux à poils, à écailles, mais elles ne sont pas encore détaillées.
 
-### Le coeur
-Le coeur est l'organe chargé de pomper le sang, liquide essentiel à la vie. Lorsque le coeur devient disfoncitonnel, l'animal meurt.
+### Le système respiratoire
+
+Le système respiratoire permet d'approvisionner l'organisme en nutriments contenus dans l'air. Par l'intermédiaire de canaux partant du visage, l'air est acheminé jusqu'aux poumons.  
+Un poumon sont une poche en contact avec l'air extérieur. La paroi interne des poumons est dotée de cellules capables de capter les nutriments de l'air. Une fois chargée de nutriments, les cellules s'enfoncent dans la paroi pour laisser place à celles qui n'en ont pas. Arrivées à l'extérieur de la paroi, elle sont dirigés vers des vaissaux qui les amènent aux organes.
 
 ### Le cerveau
 
