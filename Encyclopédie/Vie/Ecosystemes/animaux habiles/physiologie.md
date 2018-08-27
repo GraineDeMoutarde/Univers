@@ -1,3 +1,7 @@
+::: title Physiologie 4
+:::
+
+::: container
 # Physiologie
 
 Le corps est une entité rendue compacte grâce à un organe externe, la peau. Les organes sont des entités autonomes qui dépendent de l'être qui les héberge et sont eux-même composés d'entités autonomes, les cellules.
@@ -18,3 +22,5 @@ Le coeur est l'organe chargé de pomper le sang, liquide essentiel à la vie. Lo
 
 Le cerveau est constitué d'un réseau neuronal complexe capable de recevoir les informations que lui transmet le reste du corps pour prendre des décisions en fonction. Il peut agir sur les muscles qui font (entre autre) fonctionner les articulations et lui permettent d'accomplir des actions en tout genre.
 
+
+:::

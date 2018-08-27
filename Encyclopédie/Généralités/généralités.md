@@ -1,4 +1,4 @@
-::: title Généralités
+::: title Généralités 2
 :::
 
 ::: container
@@ -9,7 +9,7 @@ Tout ce qui n'est pas précisé dans l'encyclopédie est supposé identique à l
 Matière
 -------
 
-L'univers est intégralement composé de matière. Celle-ci est vivante ou morte, (à l'origine toute matière était vivante). Cette matière, qu'elle soit vivante ou morte, peut être soit animée soit inanimée<sup>[1](#echelle)</sup>.
+L'univers est intégralement composé de matière. Celle-ci est vivante ou morte, (à l'origine toute matière était vivante). Cette matière, qu'elle soit vivante ou morte, peut être soit animée soit inanimée[^1].
 
 Ces quatres catégories permettent la compréhension de toute matière dans l'univers.
 
@@ -17,7 +17,7 @@ En fonction de la catégorie dans laquelle la matière se situe, elle sera soumi
 
 ![matière dans l'univers](../../ressources/grand_tableau.JPG)
 
-<a name="echelle">1</a> - Il n'existe en réalité aucune matière inanimée, elle en a seulement l'air à une échelle de temps raisonnable. La matière désignée par inanimée se déplace en réalité très lentement suivant la loi qu'elle suit.
+[^1]: Il n'existe en réalité aucune matière inanimée, elle en a seulement l'air à une échelle de temps raisonnable. La matière désignée par inanimée se déplace en réalité très lentement suivant la loi qu'elle suit.
 
 Espace
 ------

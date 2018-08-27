@@ -1,4 +1,4 @@
-::: title Loi du tore 
+::: title Loi du tore 2
 :::
 
 ::: container

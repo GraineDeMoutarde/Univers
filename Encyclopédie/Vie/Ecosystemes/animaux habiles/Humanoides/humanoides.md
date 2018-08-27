@@ -1,3 +1,7 @@
+::: title Humanoïdes 5
+:::
+
+::: container
 Humanoïdes
 ==========
 
@@ -56,5 +60,4 @@ Les moyens qu'emploient les humanoïdes sont encore inconnus mais pour se dépla
 * voler ou planer
 * se déplacer d'objet volant en objet volant (matière inanimée)
 * utiliser l'eau
-
-
+:::
