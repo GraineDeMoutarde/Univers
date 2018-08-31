@@ -3,6 +3,7 @@ var gutil = require('gulp-util');
 var tap = require('gulp-tap');
 var MarkdownIt = require('markdown-it');
 var container = require('markdown-it-container');
+var flatten = require('gulp-flatten');
 
 var md = new MarkdownIt({
     html: true,
@@ -39,6 +40,7 @@ md.use(container, 'title', {
 gulp.task('build-encyclopedia', function() {
     return gulp.src('Encyclopédie/**/*.md')
         .pipe(tap(markdownToHtml))
+        .pipe(flatten())
         .pipe(gulp.dest('./website'));
 });
 
