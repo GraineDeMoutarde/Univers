@@ -5,9 +5,44 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
             <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css">
-            <link rel="stylesheet" href="ressources/style.css">            <title>Humanoïdes</title>
+
+            <link rel="stylesheet" href="ressources/style.css">
+            <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+            <title>Humanoïdes</title>
         </head>
-<div class="container">
+<body>
+<nav class="nav box-shadow">
+    <div id="navheader">
+        <h1 class="bright">Navigation</h1>
+    </div>
+    <div>
+        <h2 class="bright">Rechercher</h2>
+    </div>
+    <div id="category">
+        <h2 class="bright">Catégories:</h2>
+        <ul>
+            <li>
+                <button class="category-btn btn btn-block" href="category/animaux_habiles"><b>truc</b></button>
+            </li>
+            <li>
+                <button class="category-btn btn btn-block" href="category/animaux_habiles"><b>truc</b></button>
+            </li>
+            <li>
+                <button class="category-btn btn btn-block" href="category/animaux_habiles"><b>truc</b></button>
+            </li>
+        </ul>
+        <h2 class="bright">Dans la même catégorie:</h2>
+        <ul>
+            <li><button class="btn btn-sm">Machin</button></li>
+            <li><button class="btn btn-sm">Bidule</button></li>
+            <li><button class="btn btn-sm">Truc</button></li>
+        </ul>
+    </div>
+</nav>
+<div class="content box-shadow" style="left: 300px">
+    <button href=# id="navbutton" class="btn btn-outline-light" type="button" onclick="toggleSideBar()">
+        &#x25C0;
+    </button>
 <h1 id="Humano%C3%AFdes"><a name="Humano%C3%AFdes" class="markdown-it-headinganchor" href="#"></a>Humanoïdes</h1>
 <p>Espèce d’êtres vivants animés et vivant en symbiose avec un arbre depuis que celui-ci est né.</p>
 <h2 id="Origine"><a name="Origine" class="markdown-it-headinganchor" href="#"></a>Origine</h2>
@@ -56,3 +91,7 @@ Au fur et à mesure du développement des humanoïdes, ils améliorent leur nour
 <li>utiliser l’eau</li>
 </ul>
 </div>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

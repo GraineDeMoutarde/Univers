@@ -3,8 +3,6 @@ var gutil = require('gulp-util');
 var tap = require('gulp-tap');
 var MarkdownIt = require('markdown-it');
 var container = require('markdown-it-container');
-var toc = require('gulp-markdown-toc');
-var exec = require('child_process').exec;
 
 var md = new MarkdownIt({
     html: true,
@@ -26,7 +24,11 @@ md.use(container, 'title', {
             //get the correct href --- content[2] is the folder depth
             // console.log(content[content.length-1]);
             folder_up = "../".repeat(parseInt((content[content.length-1])));
-            return "<!DOCTYPE html>\n        <html lang=\"fr\">\n        <head>\n            <meta charset=\"UTF-8\">\n            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n            <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n            <link rel=\"stylesheet\" href=\"" + folder_up + "node_modules/bootstrap/dist/css/bootstrap.min.css\" type=\"text/css\">\n            <link rel=\"stylesheet\" href=\"" + folder_up +"ressources/style.css\">            <title>" + content.slice(1, -1).join(" ") + "</title>\n";
+            return "<!DOCTYPE html>\n        <html lang=\"fr\">\n        <head>\n            <meta charset=\"UTF-8\">\n            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n            <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n"+
+            "<link rel=\"stylesheet\" href=\"" +
+            folder_up + "node_modules/bootstrap/dist/css/bootstrap.min.css\" type=\"text/css\">\n"+       
+            // "<link rel=\"stylesheet\" href=\"" + folder_up +"ressources/style.css\">"+            
+            "<title>" + content.slice(1, -1).join(" ") + "</title>\n";
             
         } else {
             return "        </head>\n"
