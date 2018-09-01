@@ -23,17 +23,16 @@
         <ul>
             
             <li>
-                <button class="category-btn btn btn-block" href="category/animaux_habiles"><b>truc</b></button>
+                <button class="category-name-btn btn btn-block" href="category/animaux_habiles" onclick="dropdown('animaux_habiles')"><b>truc</b></button>
+                    <ul class="categoryContent" id="animaux_habiles">
+                        <li><button class="btn btn-block">Machin</button></li>
+                        <li><button class="btn btn-block">Bidule</button></li>
+                        <li><button class="btn btn-block">Truc</button></li>
+                    </ul>
             </li>
             <li>
-                <button class="category-btn btn btn-block" href="category/animaux_habiles"><b>truc</b></button>
+                <button class="category-name-btn btn btn-block" href="category/animaux_habiles"><b>truc</b></button>
             </li>
-        </ul>
-        <h2 class="bright">Dans la même catégorie:</h2>
-        <ul>
-            <li><button class="btn btn-sm">Machin</button></li>
-            <li><button class="btn btn-sm">Bidule</button></li>
-            <li><button class="btn btn-sm">Truc</button></li>
         </ul>
     </div>
 </nav>
@@ -90,6 +89,7 @@ Au fur et à mesure du développement des humanoïdes, ils améliorent leur nour
 </ul>
 </div>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/jquery/jquery.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
