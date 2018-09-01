@@ -1,5 +1,6 @@
-::: title Sol 3
-:::
+---
+title:  Sol 3
+---
 
 Sol
 ===

@@ -1,7 +1,7 @@
-::: title Liquidus 2
-:::
+---
+title:  Liquidus
+---
 
-::: container
 Liquidus
 ========
 
@@ -13,4 +13,3 @@ Les différents types de particules
 ---
 * Les particules d'expérience permettent  d'obtenir l'eau et de la vie
 * Les particules de viscosité rendent le liquide visqueux
-:::

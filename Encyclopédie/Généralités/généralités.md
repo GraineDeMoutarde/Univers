@@ -1,7 +1,7 @@
-::: title Généralités 2
-:::
+---
+title:  Généralités
+---
 
-::: container
 # Généralités
 
 Tout ce qui n'est pas précisé dans l'encyclopédie est supposé identique à la planète Terre.
@@ -15,7 +15,7 @@ Ces quatres catégories permettent la compréhension de toute matière dans l'un
 
 En fonction de la catégorie dans laquelle la matière se situe, elle sera soumise à deux **lois** différentes et à des intensités différentes: **loi verticale** pour le vivant et **loi du tore** pour la matière morte. Ces lois sont dites **rapides** pour la matière animée et **lentes** pour la matière inanimée.
 
-![matière dans l'univers](../../ressources/grand_tableau.JPG =528x374)
+![matière dans l'univers](../ressources/grand_tableau.JPG =528x374)
 
 [^1]: Il n'existe en réalité aucune matière inanimée, elle en a seulement l'air à une échelle de temps raisonnable. La matière désignée par inanimée se déplace en réalité très lentement suivant la loi qu'elle suit.
 
@@ -31,5 +31,4 @@ Le temps est une notion qui n'a pas de début. L'univers est infiniment vieux, m
 
 Le temps se déroule de manière linéaire et continue.
 
-La plus grande division du temps est le [cycle gravitationnel](../Généralités/loi_verticale.md#gravidsc).
-:::
+La plus grande division du temps est le [cycle gravitationnel](loi_verticale.md#gravidsc).

@@ -79,6 +79,7 @@ h1.bright {
     background-color: var(--box-color);
     padding: var(--padding-top) 3em 0em 3em;
     line-height: 1.428;
+    min-height: 100vh;
 }
 
 p {

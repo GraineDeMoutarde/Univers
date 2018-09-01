@@ -1,5 +1,7 @@
-::: title Arbre 3
-:::
+---
+title:  Arbre
+---
+
 
 # Arbre
 
