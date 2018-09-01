@@ -83,6 +83,10 @@ h1.bright {
     min-height: 100vh;
 }
 
+.footnote-item {
+    font-size: 14px;
+}
+
 p {
     font-size: var(--text-font-size, 1em);
     text-align: justify;
