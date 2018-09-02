@@ -1,3 +1,6 @@
+const domContainer = document.querySelector('#search');
+ReactDOM.render(e(SearchField, ))
+
 let sideBarOpen = true;
 let contentdiv = document.getElementsByClassName("content")[0];
 let navbutton = document.getElementById("navbutton");

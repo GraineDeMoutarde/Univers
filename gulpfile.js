@@ -39,7 +39,7 @@ md.use(container, 'title', {
     }
 })
 
-gulp.task('build-encyclopedia', function() {
+gulp.task('default', function() {
     return gulp.src('Encyclopédie/**/*.md')
         .pipe(tap(markdownToHtml))
         .pipe(flatten())
@@ -130,7 +130,8 @@ function createNav(metadata, relativePath, body) {
     ${body}
     </div>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../script.js"></script>
+    <script src="../node_modules/jquery/jquery.min.js"></script>
+    <script src="../ressources/script.js"></script>
     </body>
     </html>
     `;
@@ -139,7 +140,7 @@ function createNav(metadata, relativePath, body) {
 }
 
 gulp.task('watch', function() {
-    gulp.watch('**/*.md', ['build-encyclopedia']);
+    gulp.watch('**/*.md', ['default']);
 });
 
 gulp.task('toc', function() {
