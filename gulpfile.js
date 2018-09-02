@@ -6,6 +6,7 @@ var container = require('markdown-it-container');
 var flatten = require('gulp-flatten');
 var yamlParser = require('markdown-yaml-metadata-parser');
 var path = require('path');
+var fs = require('fs');
 
 var md = new MarkdownIt({
     html: true,
@@ -78,20 +79,38 @@ function titleCase(str) {
 
 function createNav(metadata, relativePath, body) {
     var base = path.dirname(relativePath);
-    categoryList = base.split("\\");
-    sameCategory = gulp.src(base + "/*.md");
-    for (var i=sameCategory.length-1; i>=0; i--) {
-        if (path.basename(sameCategory[i]) == path.basename(relativePath)) {
-            sameCategory.splice(i, 1);
-        }
-    }
-
+    let categoryList = base.split("\\");
+    // for (var i=sameCategory.length-1; i>=0; i--) {
+    //     if (path.basename(sameCategory[i]) == path.basename(relativePath)) {
+    //         sameCategory.splice(i, 1);
+    //     }
+    // }
+    
+    
     var categoryString ="";
     for (var i=0; i<categoryList.length; i++) {
-        categoryList[i] = titleCase(categoryList[i].replace("_", " "));
+        var liItems = "";
+        let directory = "./Encyclopédie/" + categoryList.slice(0, i+1).join('/');
+        files = fs.readdirSync(directory).filter(f => f.includes(".md"));
+        if (files) {
+            for (let i=0; i<files.length; i++) {
+                let file = files[i];
+                if (file != path.basename(relativePath)) {
+                    let filename = file.replace(".md", "");
+                    let link = filename + ".html";
+                    let liItem = `          <li><button class=\"btn btn-block\" onclick=\"location.href='${link}'\" type=\"link\">${titleCase(filename.replace(/_/g, " "))}</button></li>`
+                    liItems+=liItem+"\n";
+                }
+            }
+        }
+        //console.log(liItems);
+        category_i = titleCase(categoryList[i].replace("_", " "));
         categoryString = categoryString + `
         <li>
-            <button class="category-btn btn btn-block" href="#"><b>${categoryList[i]}</b></button>
+            <button class="category-btn btn btn-block" href="#" onclick=dropdown("${categoryList[i]}")><b>${category_i}</b></button>
+            <ul class="categoryContent" id=${categoryList[i]}>
+            ${liItems}
+            </ul>
         </li>`;
     }
 
@@ -131,7 +150,11 @@ function createNav(metadata, relativePath, body) {
     </div>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../node_modules/jquery/jquery.min.js"></script>
+<<<<<<< HEAD
     <script src="../ressources/script.js"></script>
+=======
+    <script src="../script.js"></script>
+>>>>>>> da029cb40c18df1af4db738460d772bfdeb9cd43
     </body>
     </html>
     `;

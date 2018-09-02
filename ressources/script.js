@@ -32,3 +32,7 @@ function toggleSideBar() {
         }
     }
 }
+
+function dropdown(id) {
+    $('#'+id).slideToggle(100);
+}
