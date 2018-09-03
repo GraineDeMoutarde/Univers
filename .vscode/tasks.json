@@ -5,7 +5,7 @@
     "tasks": [
         {
             "type": "gulp",
-            "task": "build-encyclopedia",
+            "task": "default",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
@@ -23,8 +23,20 @@
             "problemMatcher": []
         },
         {
+            "label": "Jsx watcher",
+            "type": "shell",
+            "command": "npx babel --watch ressources/reactcomponents --out-dir ressources --presets react-app/prod ",
+            "problemMatcher": []
+        },
+        {
+            "label": "server",
+            "type": "shell",
+            "command": "http-server",
+            "problemMatcher": []
+        },
+        {
             "type": "gulp",
-            "task": "build-encyclopedia",
+            "task": "writeSearchFile",
             "problemMatcher": []
         }
     ]

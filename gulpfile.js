@@ -7,6 +7,7 @@ var flatten = require('gulp-flatten');
 var yamlParser = require('markdown-yaml-metadata-parser');
 var path = require('path');
 var fs = require('fs');
+var writeJson = require('write-json');
 
 var md = new MarkdownIt({
     html: true,
@@ -77,6 +78,42 @@ function titleCase(str) {
     return splitStr.join(' '); 
  }
 
+gulp.task('writeSearchFile', ()=> {
+    writeSearchFile();
+    return;
+})
+
+function writeSearchFile() {
+    let _pathArray = walk('Encyclopédie');
+    let _nameArray = []
+    for (let i=0; i<_pathArray.length; i++) {
+        _pathArray[i] = path.basename(_pathArray[i]).replace(".md", ".html");
+        _nameArray.push(titleCase(path.basename(_pathArray[i]).replace("_", " ").replace(".html", "")));
+    }
+    let file = 'website/ressources/searchDict.json'
+    writeJson(file, {
+        pathArray: _pathArray,
+        nameArray: _nameArray
+    });
+}
+
+var walk = function(dir) {
+    var results = [];
+    var list = fs.readdirSync(dir);
+    list.forEach(function(file) {
+        file = dir + '/' + file;
+        var stat = fs.statSync(file);
+        if (stat && stat.isDirectory()) { 
+            /* Recurse into a subdirectory */
+            results = results.concat(walk(file));
+        } else { 
+            /* Is a file */
+            results.push(file);
+        }
+    });
+    return results;
+}
+
 function createNav(metadata, relativePath, body) {
     var base = path.dirname(relativePath);
     let categoryList = base.split("\\");
@@ -107,7 +144,7 @@ function createNav(metadata, relativePath, body) {
         category_i = titleCase(categoryList[i].replace("_", " "));
         categoryString = categoryString + `
         <li>
-            <button class="category-btn btn btn-block" href="#" onclick=dropdown("${categoryList[i]}")><b>${category_i}</b></button>
+            <button class="category-btn btn btn-block" href="#" onclick="dropdown('${categoryList[i]}')"><b>${category_i}</b></button>
             <ul class="categoryContent" id=${categoryList[i]}>
             ${liItems}
             </ul>
@@ -120,9 +157,9 @@ function createNav(metadata, relativePath, body) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="ressources//bootstrap.min.css" type="text/css">
 
-        <link rel="stylesheet" href="../ressources/style.css">
+        <link rel="stylesheet" href="ressources/style.css">
         <title>${metadata.title}</title>
     </head>
     <body>
@@ -131,7 +168,13 @@ function createNav(metadata, relativePath, body) {
             <h1 class="bright">Navigation</h1>
         </div>
         <div>
-            <h2 class="bright">Rechercher</h2>
+        <div class="input-group">
+        <div class="autocomplete">
+            <input type="text" class="form-control" placeholder="..." id="search" onchange="getAutocomplete()" onkeypress="getAutocomplete()" >
+            <div id="autocomplete-items">
+            </div>
+        </div>
+    </div><!-- /input-group -->
         </div>
         <div id="category">
             <h2 class="bright">Catégories:</h2>
@@ -148,13 +191,11 @@ function createNav(metadata, relativePath, body) {
     </button>
     ${body}
     </div>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../node_modules/jquery/jquery.min.js"></script>
-<<<<<<< HEAD
-    <script src="../ressources/script.js"></script>
-=======
-    <script src="../script.js"></script>
->>>>>>> da029cb40c18df1af4db738460d772bfdeb9cd43
+    <script src="ressources/bootstrap.min.js"></script>
+    <script src="ressources/jquery.min.js"></script>
+    <script src="ressources/script.js"></script>
+    <script src="ressources/searchDict.js"></script>
+    <script src="ressources/alternateImageFloat.js"></script>
     </body>
     </html>
     `;
