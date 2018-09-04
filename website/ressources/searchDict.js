@@ -1,6 +1,7 @@
 function getAutocomplete() {
   $.getJSON('ressources/searchDict.json', function(data) {         
     let currentText = $("#search").val();
+    // handleAutoComplete(currentText, data);
     if (!(currentText.length == 0)) {
       handleAutoComplete(currentText, data);
     } else {
@@ -16,7 +17,7 @@ function handleAutoComplete(currentText, data) {
       let name = data.nameArray[i];
       let path = data.pathArray[i];
       let sliced = name.slice(0, currentText.length);
-      if (sliced.trim() === currentText.trim()) {
+      if (sliced.trim().toLowerCase() === currentText.trim().toLowerCase()) {
         nameMatches.push(name);
         pathMatches.push(path);
       }
@@ -25,4 +26,4 @@ function handleAutoComplete(currentText, data) {
     for (i=0; i<nameMatches.length; i++) {
       $('#autocomplete-items').append(`<a href=${pathMatches[i]}><div>${nameMatches[i]}</div></a>`);
     }
-}
+  }
