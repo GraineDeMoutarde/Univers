@@ -1,3 +1,3 @@
 $("img").each(function(i) {
-    $(this).attr("style", Math.pow((-1), i) == -1? "float: left" : "float: right");
+    $(this).attr("class", Math.pow((-1), i) == -1? "imgLeft" : "imgRight");
 });

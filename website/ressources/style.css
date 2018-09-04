@@ -1,21 +1,24 @@
 @font-face { 
-    font-family: /*ici remplace arial par le nom de police, dans la source aussi*/ arial;
-    src: "fonts/arial"
+    font-family: Dayrom;
+    src: url("fonts/dayrom.ttf");
+}
+
+@font-face {
+    font-family: Lemon-Milk;
+    src: url("fonts/LemonMilk.otf");
 }
 
 :root{
     --box-color: rgb(255, 255, 255);
     --box-nav-color: rgb(14, 13, 44);
-    --dark-text: rgb(13, 2, 161);
+    --dark-text: rgb(77, 69, 189);
     --bright-text: rgb(134, 127, 224);
     --text-font-size: 1.5em;
     --nav-background: rgba();
     --padding-top: 2em;
     --link: #924bd4;
-}
-
-img {
-    float: right;
+    --imgBorderWidth: 2px;
+    --imgBorderRadius: 20px;
 }
 
 .autocomplete {
@@ -74,7 +77,7 @@ img {
 body {
     background-color: rgb(87, 56, 83);
     height: 100vh;
-    font-family: /*remplace ça par le nom de la police custom*/arial;
+    font-family: Dayrom;
     color: rgb(22, 22, 22);
 }
 
@@ -84,7 +87,7 @@ body {
 
 h1, h2 {
     text-align: center;
-    font-family: "Segoe UI";
+    font-family: Lemon-Milk;
     color: var(--dark-text);
 }
 
@@ -160,6 +163,27 @@ li {
     
 }
 
+.imgLeft {
+    float: left;
+    border-width: var(--imgBorderWidth) var(--imgBorderWidth) var(--imgBorderWidth) 0px;
+    border-top-right-radius: var(--imgBorderRadius);
+    border-bottom-right-radius: var(--imgBorderRadius);
+    margin: 20px 20px 20px 0px;
+}
+
+.imgRight {
+    float: right;
+    border-width: var(--imgBorderWidth) 0px var(--imgBorderWidth) var(--imgBorderWidth);
+    border-top-left-radius: var(--imgBorderRadius);
+    border-bottom-left-radius: var(--imgBorderRadius);
+    margin: 20px 0px 20px 20px;
+}
+img {
+    box-shadow: 0 15px 20px rgba(0, 47, 255, 0.185);
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.123);
+}
+
 #category>ul {
     list-style: none;
     padding-left: 0;
@@ -181,6 +205,10 @@ a {
     color: var(--link);
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Courier, monospace;
+}
+
+a>div {
+    color: var(--dark-text);
 }
 
 a:hover {

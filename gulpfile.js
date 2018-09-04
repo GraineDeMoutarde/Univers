@@ -117,7 +117,7 @@ function createNav(metadata, relativePath, body) {
     <body>
     <nav class="nav box-shadow">
         <div id="navheader">
-            <h1 class="bright">Navigation</h1>
+            <h1 class="bright">Univers</h1>
         </div>
         <div>
             <h2 class="bright">Rechercher</h2>
