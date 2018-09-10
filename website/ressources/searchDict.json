@@ -1,0 +1,36 @@
+{
+  "pathArray": [
+    "généralités.html",
+    "liquidus.html",
+    "loi_tore.html",
+    "loi_verticale.html",
+    "test.html",
+    "index.html",
+    "humanoides.html",
+    "physiologie_animaux_habiles.html",
+    "physiologie_animaux_malhabiles.html",
+    "arbre.html",
+    "sol.html",
+    "symbiose.html",
+    "mort.html",
+    "vie.html",
+    "toc.html"
+  ],
+  "nameArray": [
+    "Généralités",
+    "Liquidus",
+    "Loi Tore",
+    "Loi Verticale",
+    "Test",
+    "Index",
+    "Humanoides",
+    "Physiologie Animaux_habiles",
+    "Physiologie Animaux_malhabiles",
+    "Arbre",
+    "Sol",
+    "Symbiose",
+    "Mort",
+    "Vie",
+    "Toc"
+  ]
+}

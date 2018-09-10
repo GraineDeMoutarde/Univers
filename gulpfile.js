@@ -117,7 +117,7 @@ function createNav(metadata, relativePath, body) {
     <body>
     <nav class="nav box-shadow">
         <div id="navheader">
-            <h1 class="bright">Navigation</h1>
+            <h1 class="bright">Univers</h1>
         </div>
         <div>
             <h2 class="bright">Rechercher</h2>
@@ -131,7 +131,7 @@ function createNav(metadata, relativePath, body) {
     </nav>`;
 
     result = result + `
-    <div class="content box-shadow" style="left: 300px">
+    <div class="content" style="left: 300px">
     <button href=# id="navbutton" class="btn btn-outline-light" type="button" onclick="toggleSideBar()">
         &#x25C0;
     </button>
