@@ -2,52 +2,33 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 var tap = require('gulp-tap');
 var MarkdownIt = require('markdown-it');
-var container = require('markdown-it-container');
 var flatten = require('gulp-flatten');
 var yamlParser = require('markdown-yaml-metadata-parser');
 var path = require('path');
 var fs = require('fs');
-var writeJson = require('write-json');
 
 var md = new MarkdownIt({
     html: true,
     linkify: false,
     typographer: true
   });
+// Markdown it plugins for formatting  
 md.use(container, 'container');
 md.use(require('markdown-it-sup'));
 md.use(require('markdown-it-sub'));
 md.use(require('markdown-it-footnote'));
 md.use(require('markdown-it-headinganchor'));
 md.use(require('markdown-it-imsize'), {autofill: true});
-md.use(container, 'title', {
-    render: function(tokens, idx) {
-        var content = tokens[idx].info.trim().split(" ");
-        // console.log(content);
-        // return "";
-        if (tokens[idx].nesting === 1) {
-            //get the correct href --- content[2] is the folder depth
-            // console.log(content[content.length-1]);
-            folder_up = "../".repeat(parseInt((content[content.length-1])));
-            return "<!DOCTYPE html>\n        <html lang=\"fr\">\n        <head>\n            <meta charset=\"UTF-8\">\n            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n            <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n"+
-            "<link rel=\"stylesheet\" href=\"" +
-            folder_up + "node_modules/bootstrap/dist/css/bootstrap.min.css\" type=\"text/css\">\n"+       
-            // "<link rel=\"stylesheet\" href=\"" + folder_up +"ressources/style.css\">"+            
-            "<title>" + content.slice(1, -1).join(" ") + "</title>\n";
-            
-        } else {
-            return "        </head>\n"
-        }
-    }
-})
 
+// default builds the encyclopedia website
 gulp.task('default', function() {
-    return gulp.src('Encyclopédie/**/*.md')
-        .pipe(tap(markdownToHtml))
-        .pipe(flatten())
-        .pipe(gulp.dest('./website'));
+    return gulp.src('Encyclopédie/**/*.md')  // Taking all md files in encyclopedia
+        .pipe(tap(markdownToHtml))  // Converting them into html
+        .pipe(flatten())  // don't use the folder hierarchy in order to make the link system flexible
+        .pipe(gulp.dest('./website')); //pipe them into the dest folder
 });
 
+// same as default but just for any test.md
 gulp.task('test', function() {
     return gulp.src('**/test.md')
     .pipe(tap(markdownToHtml))
@@ -56,18 +37,20 @@ gulp.task('test', function() {
 })
 
 function markdownToHtml(file) {
-    var source = file.contents.toString().replace(/\r\n/g, "\n");
-    var parsed = yamlParser(source);
-    var body = md.render(parsed.content);
-    // changes every md link into html link
+    // Converts md *file* into html file;
+    var source = file.contents.toString().replace(/\r\n/g, "\n"); // replacing weird newlines
+    var parsed = yamlParser(source); // parsing the file into an object
+    var body = md.render(parsed.content); // use Markdown-It (and all the plugins) to render the html
+    // changes every md link into html link globally
     body = body.replace(/\.md/g, ".html");
-    var content = createNav(parsed.metadata, file.relative, body);
+    var content = createNav(parsed.metadata, file.relative, body); // create the navigation part thanks to the metadata (relative path is used for category detection)
     file.contents = new Buffer(content);
-    file.path = gutil.replaceExtension(file.path, '.html');
+    file.path = gutil.replaceExtension(file.path, '.html'); // Change .md to .html
     return;
 }
 
 function titleCase(str) {
+    // Uppercases *str* on each word
     var splitStr = str.toLowerCase().split(' ');
     for (var i = 0; i < splitStr.length; i++) {
         // You do not need to check if i is larger than splitStr length, as your for does that for you
@@ -78,58 +61,22 @@ function titleCase(str) {
     return splitStr.join(' '); 
  }
 
-gulp.task('writeSearchFile', ()=> {
-    writeSearchFile();
-    return;
-})
-
-function writeSearchFile() {
-    let _pathArray = walk('Encyclopédie');
-    let _nameArray = []
-    for (let i=0; i<_pathArray.length; i++) {
-        _pathArray[i] = path.basename(_pathArray[i]).replace(".md", ".html");
-        _nameArray.push(titleCase(path.basename(_pathArray[i]).replace("_", " ").replace(".html", "")));
-    }
-    let file = 'website/ressources/searchDict.json'
-    writeJson(file, {
-        pathArray: _pathArray,
-        nameArray: _nameArray
-    });
-}
-
-var walk = function(dir) {
-    var results = [];
-    var list = fs.readdirSync(dir);
-    list.forEach(function(file) {
-        file = dir + '/' + file;
-        var stat = fs.statSync(file);
-        if (stat && stat.isDirectory()) { 
-            /* Recurse into a subdirectory */
-            results = results.concat(walk(file));
-        } else { 
-            /* Is a file */
-            results.push(file);
-        }
-    });
-    return results;
-}
-
 function createNav(metadata, relativePath, body) {
-    var base = path.dirname(relativePath);
-    let categoryList = base.split("\\");
-    // for (var i=sameCategory.length-1; i>=0; i--) {
-    //     if (path.basename(sameCategory[i]) == path.basename(relativePath)) {
-    //         sameCategory.splice(i, 1);
-    //     }
-    // }
+    // Returns the html file as a string based on metadata, relative path and body content
+    var base = path.dirname(relativePath); // get away the file name
+    let categoryList = base.split("\\"); // List of all folders in path
+    metadata.customCategories.forEach(customCategory => {
+        categoryList.push(customCategory);
+    })
     
-    
+    // Looping for every category, adding a li item for every Category
     var categoryString ="";
     for (var i=0; i<categoryList.length; i++) {
         var liItems = "";
         let directory = "./Encyclopédie/" + categoryList.slice(0, i+1).join('/');
         files = fs.readdirSync(directory).filter(f => f.includes(".md"));
         if (files) {
+            // if there are files in the category loop for all of them and add links
             for (let i=0; i<files.length; i++) {
                 let file = files[i];
                 if (file != path.basename(relativePath)) {
@@ -139,12 +86,17 @@ function createNav(metadata, relativePath, body) {
                     liItems+=liItem+"\n";
                 }
             }
+        } else {
+            // Else, use the metadata customCategory
+            // Goal, use a custom task to write a file of the type: 
+            // {"customCategory": ["path1", "path2"]}
+            console.log("Custom categories not implemented yet");
         }
         //console.log(liItems);
         category_i = titleCase(categoryList[i].replace("_", " "));
         categoryString = categoryString + `
         <li>
-            <button class="category-btn btn btn-block" href="#" onclick="dropdown('${categoryList[i]}')"><b>${category_i}</b></button>
+            <button class="category-btn btn btn-block" href="#" onclick=dropdown("${categoryList[i]}")><b>${category_i}</b></button>
             <ul class="categoryContent" id=${categoryList[i]}>
             ${liItems}
             </ul>
@@ -157,9 +109,9 @@ function createNav(metadata, relativePath, body) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="ressources//bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css">
 
-        <link rel="stylesheet" href="ressources/style.css">
+        <link rel="stylesheet" href="../ressources/style.css">
         <title>${metadata.title}</title>
     </head>
     <body>
@@ -168,13 +120,7 @@ function createNav(metadata, relativePath, body) {
             <h1 class="bright">Navigation</h1>
         </div>
         <div>
-        <div class="input-group">
-        <div class="autocomplete">
-            <input type="text" class="form-control" placeholder="..." id="search" onchange="getAutocomplete()" onkeypress="getAutocomplete()" >
-            <div id="autocomplete-items">
-            </div>
-        </div>
-    </div><!-- /input-group -->
+            <h2 class="bright">Rechercher</h2>
         </div>
         <div id="category">
             <h2 class="bright">Catégories:</h2>
@@ -191,11 +137,9 @@ function createNav(metadata, relativePath, body) {
     </button>
     ${body}
     </div>
-    <script src="ressources/bootstrap.min.js"></script>
-    <script src="ressources/jquery.min.js"></script>
-    <script src="ressources/script.js"></script>
-    <script src="ressources/searchDict.js"></script>
-    <script src="ressources/alternateImageFloat.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../node_modules/jquery/jquery.min.js"></script>
+    <script src="../ressources/script.js"></script>
     </body>
     </html>
     `;
